@@ -88,4 +88,7 @@ const extractSuccess = <ResponseType, T extends ResponseType>(spreeRequest: Prom
   })
 }
 
+/**
+ * @hidden
+ */
 export { makeSuccess, makeFail, toJson, fromJson, extractSuccess }

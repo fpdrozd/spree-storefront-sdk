@@ -9,5 +9,6 @@
     "declaration": true,
     "declarationDir": "./types",
     "importsNotUsedAsValues": "preserve"
-  }
+  },
+  "exclude": ["node_modules", "tests"]
 }
